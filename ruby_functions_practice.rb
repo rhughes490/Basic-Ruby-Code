@@ -3,7 +3,7 @@ def return_five()
     return 5
 end
 
-def return_ten()
+def return_10()
     return 10
 end
 
@@ -45,16 +45,17 @@ def number_to_full_month_name(month_number)
         return "September"  
    
     end
+end
     
-def number_to_short_month_name(month_number)
-    case month_number
-    when "1"
+def number_to_short_month_name(short_month)
+    case short_month
+    when 1
         return "Jan"
-    when "4"
-        return "Apr"
-    when "10"
+    when 4
+        return "Apr" 
+    when 10
         return "Oct"  
    
     end
 end
-end
+

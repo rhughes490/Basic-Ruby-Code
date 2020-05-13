@@ -59,3 +59,14 @@ def number_to_short_month_name(short_month)
     end
 end
 
+def cube(length)
+    return length * length * length
+end
+
+def volume(radius)
+    return 4/3.to_f * 3.141592653.to_f * (radius*radius*radius)
+end
+
+def temp(fahrenheit)
+    return (fahrenheit - 32) * 5/9.to_f
+end
